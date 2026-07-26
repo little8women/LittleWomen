@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SÉREIN offers premier luxury home styling and interior beautification services. We create elegant, peaceful, and personalized living spaces through expert home styling, color selection, décor, and complete home makeovers.">
+  <meta name="keywords" content="Home Beautification, Interior Styling, Home Decor, Interior Decorating, Luxury Home Styling, Home Makeover Services, Scandinavian Design">
+  <meta name="author" content="SÉREIN">
+  <title>SÉREIN | Luxury Home Styling & Beautification Services</title>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       PRELOADER
+       ========================================== -->
+  <div id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-logo">SÉREIN</div>
+      <div class="preloader-line"></div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       HEADER & NAVIGATION
+       ========================================== -->
+  <header id="site-header">
+    <div class="container header-container">
+      <a href="#hero" class="logo" id="header-logo">SÉREIN<span>.</span></a>
+      
+      <!-- Desktop Navigation Menu -->
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Menu for Mobile -->
+      <div class="hamburger" id="mobile-menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <ul class="mobile-nav" id="mobile-navigation">
+    <li><a href="#hero" class="mobile-nav-link" onclick="toggleMobileMenu()">Home</a></li>
+    <li><a href="#services" class="mobile-nav-link" onclick="toggleMobileMenu()">Services</a></li>
+    <li><a href="#portfolio" class="mobile-nav-link" onclick="toggleMobileMenu()">Portfolio</a></li>
+    <li><a href="#process" class="mobile-nav-link" onclick="toggleMobileMenu()">Process</a></li>
+    <li><a href="#about" class="mobile-nav-link" onclick="toggleMobileMenu()">About</a></li>
+    <li><a href="#testimonials" class="mobile-nav-link" onclick="toggleMobileMenu()">Testimonials</a></li>
+    <li><a href="#contact" class="mobile-nav-link" onclick="toggleMobileMenu()">Contact</a></li>
+  </ul>
+
+  <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
+  <section id="hero">
+    <div class="hero-bg" id="hero-bg-img"></div>
+    <div class="container hero-container">
+      <span class="hero-subtitle">Creating Beautiful Homes. Creating Better Living.</span>
+      <h1 class="hero-title">Transform Your House<br>Into a Home You'll Love.</h1>
+      <p class="hero-desc">We create elegant, peaceful, and personalized living spaces through expert home styling, color selection, décor, and complete home beautification.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary"><span>Book Free Consultation</span></a>
+        <a href="#portfolio" class="btn btn-outline">View Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SERVICES SECTION
+       ========================================== -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Our Services</span>
+        <h2 class="section-title">Designed for <span>Better Living</span></h2>
+      </div>
+
+      <div class="services-grid">
+        <!-- 1. Interior Beautification -->
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+            </svg>
+          </div>
+          <h3>Interior Beautification</h3>
+          <p>Complete aesthetic refinement of your home's structural and design components, creating a cohesive, high-end feel.</p>
+        </div>
+
+        <!-- 2. Color Consultation -->
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122l9.73-9.73a2.25 2.25 0 113.182 3.182l-9.73 9.73a4.5 4.5 0 01-2.25 1.258l-3.182.87a.75.75 0 01-.913-.913l.87-3.182a4.5 4.5 0 011.258-2.25z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14.07 9.53L17 12.43M8.347 16.275L11.25 19.18" />
+            </svg>
+          </div>
+          <h3>Color Consultation</h3>
+          <p>Expert guidance on palettes and paint selections that set the perfect mood, optimize lighting, and elevate rooms.</p>
+        </div>
+
+        <!-- 3. Home Styling -->
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499c-.107-.19-.272-.34-.469-.424a.75.75 0 00-.706 0c-.197.084-.362.234-.469.424L2.78 18.001c-.12.214-.145.472-.069.707a.75.75 0 00.706.542h17.166a.75.75 0 00.706-.542.75.75 0 00-.069-.707L11.48 3.499z" />
+            </svg>
+          </div>
+          <h3>Home Styling</h3>
+          <p>Thoughtful curation of accessories, layout design, and accents to reflect your lifestyle and personality beautifully.</p>
+        </div>
+
+        <!-- 4. Furniture Selection -->
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+            </svg>
+          </div>
+          <h3>Furniture Selection</h3>
+          <p>Sourcing signature, quality furniture pieces that optimize space, improve comfort, and stand the test of time.</p>
+        </div>
+
+        <!-- 5. Lighting Design -->
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v3m0 0h.01m-.01 0a1.5 1.5 0 110-3h.01m-6.01 3v-3m0 0h.01m-.01 0a1.5 1.5 0 110-3h.01M18 21v-3m0 0h.01m-.01 0a1.5 1.5 0 110-3h.01M12 3a9 9 0 00-9 9h18a9 9 0 00-9-9z" />
+            </svg>
+          </div>
+          <h3>Lighting Design</h3>
+          <p>Curating layered lighting plans combining ambient, task, and accent lighting to emphasize architectural focal points.</p>
+        </div>
+
+        <!-- 6. Wall Art & Decor -->
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+            </svg>
+          </div>
+          <h3>Wall Art & Decor</h3>
+          <p>Carefully selecting art layouts, canvases, frames, and gallery walls that reflect sophisticated aesthetic tastes.</p>
+        </div>
+
+        <!-- 7. Space Organization -->
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
+            </svg>
+          </div>
+          <h3>Space Organization</h3>
+          <p>Streamlining floorplans and implementing creative organizational systems for a decluttered, tranquil environment.</p>
+        </div>
+
+        <!-- 8. Home Makeovers -->
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 21m0 0l-.813-5.096m.813 5.096a11.95 11.95 0 01-3.072-1.472M14.187 15.904L15 21m0 0l.813-5.096m-.813 5.096a11.95 11.95 0 003.072-1.472M12 3v13.5m0-13.5a9 9 0 019 9v.086M12 3a9 9 0 00-9 9v.086" />
+            </svg>
+          </div>
+          <h3>Home Makeovers</h3>
+          <p>A transformative overhaul of targeted rooms, blending colors, textures, and layouts for a fresh design identity.</p>
+        </div>
+
+        <!-- 9. Seasonal Styling -->
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1.5m0 15V21m-9-9h1.5m15 0H21m-2.121-7.121l-1.06 1.06m-9.193 9.193l-1.06 1.06m11.314 0l-1.06-1.06m-9.193-9.193l-1.06-1.06M12 7.5a4.5 4.5 0 110 9 4.5 4.5 0 010-9z" />
+            </svg>
+          </div>
+          <h3>Seasonal Styling</h3>
+          <p>Refreshing accessories, fabrics, and floral accents throughout the year to align your home with seasonal dynamics.</p>
+        </div>
+
+        <!-- 10. Project Management -->
+        <div class="service-card reveal">
+          <div class="service-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 13.5V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 0V21m12-7.5V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 0V21m-6-1.5V3.75m0 15.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 0V21" />
+            </svg>
+          </div>
+          <h3>Project Management</h3>
+          <p>Flawless execution from concept layout to white-glove setup, managing sourcing, delivery, and staging teams.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       PORTFOLIO SECTION
+       ========================================== -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Featured Works</span>
+        <h2 class="section-title">Our Curation <span>Portfolio</span></h2>
+      </div>
+
+      <!-- Tab Filter Buttons -->
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="kitchen">Kitchen</button>
+        <button class="filter-btn" data-filter="bedroom">Bedroom</button>
+        <button class="filter-btn" data-filter="workspace">Workspace</button>
+        <button class="filter-btn" data-filter="entryway">Entryway</button>
+      </div>
+
+      <!-- Portfolio Masonry Grid -->
+      <div class="portfolio-grid">
+        <!-- Project 1: Kitchen -->
+        <div class="portfolio-item large reveal" data-category="kitchen">
+          <div class="portfolio-img-wrapper">
+            <img src="assets/portfolio_1.webp" alt="Modern Scandinavian Kitchen Design">
+            <div class="portfolio-overlay">
+              <span>Scandinavian Elegance</span>
+              <h4>The Culinary Haven</h4>
+              <p>Oslo | A kitchen redesign prioritizing natural textures, warm wood paneling, and brushed gold fixtures.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Bedroom -->
+        <div class="portfolio-item small reveal" data-category="bedroom">
+          <div class="portfolio-img-wrapper">
+            <img src="assets/portfolio_2.webp" alt="Minimalist Bedroom Design">
+            <div class="portfolio-overlay">
+              <span>Zen Minimalist</span>
+              <h4>Serene Rest Sanctuary</h4>
+              <p>Copenhagen | Calming linen layers, customized oak dressers, and warm lighting design.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Workspace -->
+        <div class="portfolio-item small reveal" data-category="workspace">
+          <div class="portfolio-img-wrapper">
+            <img src="assets/portfolio_3.webp" alt="Home Office Design">
+            <div class="portfolio-overlay">
+              <span>Organic Modern</span>
+              <h4>Focus Studio</h4>
+              <p>Stockholm | Custom workspace styling integrating botanical elements and structured shelving.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Entryway -->
+        <div class="portfolio-item large reveal" data-category="entryway">
+          <div class="portfolio-img-wrapper">
+            <img src="assets/portfolio_4.webp" alt="Elegant Console Entrance styling">
+            <div class="portfolio-overlay">
+              <span>Warm Welcome</span>
+              <h4>The Portal Console</h4>
+              <p>Helsinki | Clean lines combined with warm candlelight reflection, styling a luxurious first impression.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Before and After Interactive Slider -->
+      <div class="comparison-wrapper reveal">
+        <div class="comparison-header">
+          <span class="section-tag">Staging Showcase</span>
+          <h2 class="section-title">See the <span>Transformation</span></h2>
+        </div>
+        
+        <div class="comparison-slider" id="compare-slider-container">
+          <!-- Before Image -->
+          <div class="comparison-img comparison-before">
+            <img src="assets/before_room.webp" alt="Cluttered Room Before Styling">
+            <div class="comparison-label before-label">Before</div>
+          </div>
+          <!-- After Image -->
+          <div class="comparison-img comparison-after" id="compare-after-img">
+            <img src="assets/after_room.webp" alt="Luxurious Room After Styling">
+            <div class="comparison-label after-label">After</div>
+          </div>
+          <!-- Drag Handle -->
+          <div class="comparison-handle" id="compare-drag-handle">
+            <div class="comparison-handle-button">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8 9l4-4 4 4m0 6l-4 4-4-4" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       OUR PROCESS SECTION
+       ========================================== -->
+  <section id="process" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Step by Step</span>
+        <h2 class="section-title">Our Styling <span>Journey</span></h2>
+      </div>
+
+      <!-- Horizontal Timeline -->
+      <div class="process-timeline-container reveal">
+        <div class="process-timeline">
+          <!-- Progress Line -->
+          <div class="process-timeline-progress" id="timeline-progress-bar"></div>
+
+          <!-- Step 1 -->
+          <div class="process-step active" data-step="1">
+            <div class="process-step-num">Step 01</div>
+            <div class="process-node">
+              <div class="process-node-inner"></div>
+            </div>
+            <h4>Consultation</h4>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="process-step" data-step="2">
+            <div class="process-step-num">Step 02</div>
+            <div class="process-node">
+              <div class="process-node-inner"></div>
+            </div>
+            <h4>Design Vision</h4>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="process-step" data-step="3">
+            <div class="process-step-num">Step 03</div>
+            <div class="process-node">
+              <div class="process-node-inner"></div>
+            </div>
+            <h4>Planning</h4>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="process-step" data-step="4">
+            <div class="process-step-num">Step 04</div>
+            <div class="process-node">
+              <div class="process-node-inner"></div>
+            </div>
+            <h4>Sourcing</h4>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="process-step" data-step="5">
+            <div class="process-step-num">Step 05</div>
+            <div class="process-node">
+              <div class="process-node-inner"></div>
+            </div>
+            <h4>Transformation</h4>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="process-step" data-step="6">
+            <div class="process-step-num">Step 06</div>
+            <div class="process-node">
+              <div class="process-node-inner"></div>
+            </div>
+            <h4>Final Styling</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detail Card for Steps -->
+      <div class="process-desc-panel reveal" id="step-description-panel">
+        <h3 class="process-desc-title" id="step-panel-title">Initial Consultation</h3>
+        <p class="process-desc-text" id="step-panel-desc">We meet in your space to understand your lifestyle, functional needs, visual inspiration, and budget parameters, laying a solid foundation for the styling goals.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       ABOUT SECTION
+       ========================================== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        
+        <!-- Text Column -->
+        <div class="about-content reveal reveal-left">
+          <span class="section-tag">Behind the Design</span>
+          <h2 class="about-title">We Believe Every Home Deserves Beauty.</h2>
+          <p class="about-text">Our philosophy bridges the gap between elegant luxury and comforting warmth. We study how you live, how light hits each corner, and how a space interacts with your emotional state. Our team curates peaceful, inspiring interiors styled with timeless accents that honor both form and functionality.</p>
+          <div class="about-quote">"A home is not just a layout of furniture. It is a canvas of calmness that shapes who we are."</div>
+          <div class="about-signature">Elise Vang, Lead Stylist</div>
+        </div>
+
+        <!-- Image Column -->
+        <div class="about-img-column reveal reveal-right">
+          <div class="about-img-frame">
+            <div class="about-img-wrapper">
+              <img src="assets/designer.webp" alt="Lead Designer Elise Vang inside bright interior studio">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       STATISTICS SECTION (NUMBERS)
+       ========================================== -->
+  <section id="stats" class="section">
+    <div class="container">
+      <div class="stats-grid">
+        <!-- Stat 1 -->
+        <div class="stat-item reveal">
+          <div class="stat-num" data-target="150">0</div>
+          <div class="stat-label">Homes Styled</div>
+        </div>
+        <!-- Stat 2 -->
+        <div class="stat-item reveal">
+          <div class="stat-num" data-target="98">0</div>
+          <div class="stat-label">Client Satisfaction %</div>
+        </div>
+        <!-- Stat 3 -->
+        <div class="stat-item reveal">
+          <div class="stat-num" data-target="10">0</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <!-- Stat 4 -->
+        <div class="stat-item reveal">
+          <div class="stat-num" data-target="500">0</div>
+          <div class="stat-label">Design Ideas Created</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       TESTIMONIALS SECTION
+       ========================================== -->
+  <section id="testimonials" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Client Reviews</span>
+        <h2 class="section-title">What Our <span>Clients Say</span></h2>
+      </div>
+
+      <div class="testimonials-slider-wrapper reveal">
+        <div class="testimonials-slider" id="testimonial-slider-container">
+          
+          <!-- Slide 1 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"Our home feels like a luxury retreat. Every detail was thoughtfully curated, from the calming color consultation to the custom furniture selections."</p>
+              <div class="testimonial-author">
+                <div class="author-img">
+                  <img src="assets/designer.webp" alt="Client Review Portrait">
+                </div>
+                <div class="author-info">
+                  <h4 class="author-name">Charlotte Bennett</h4>
+                  <span class="author-loc">Homeowner | Copenhagen</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"The Before & After transformation of our kitchen was spectacular. SÉREIN brought light, organization, and a level of comfort we didn't know was possible."</p>
+              <div class="testimonial-author">
+                <div class="author-img">
+                  <img src="assets/portfolio_2.webp" alt="Client Review Portrait">
+                </div>
+                <div class="author-info">
+                  <h4 class="author-name">Marcus Sterling</h4>
+                  <span class="author-loc">Penthouse Owner | Oslo</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"Incredible project management. They respected our budget constraints and styled our office into an inspiring workspace. Strongly recommended!"</p>
+              <div class="testimonial-author">
+                <div class="author-img">
+                  <img src="assets/portfolio_3.webp" alt="Client Review Portrait">
+                </div>
+                <div class="author-info">
+                  <h4 class="author-name">Amara Finch</h4>
+                  <span class="author-loc">Creative Director | Stockholm</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="slider-controls">
+          <div class="slider-arrow" id="slider-prev-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+          </div>
+          <div class="slider-dots" id="slider-dots-container">
+            <span class="slider-dot active" data-index="0"></span>
+            <span class="slider-dot" data-index="1"></span>
+            <span class="slider-dot" data-index="2"></span>
+          </div>
+          <div class="slider-arrow" id="slider-next-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       PINTEREST STYLE GALLERY
+       ========================================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Visual Inspiration</span>
+        <h2 class="section-title">Pinterest <span>Inspirations</span></h2>
+      </div>
+
+      <div class="pinterest-gallery reveal">
+        <div class="pinterest-item">
+          <img src="assets/portfolio_1.webp" alt="Minimalist Kitchen Layout">
+          <div class="pinterest-caption">Natural Scandinavian Kitchen</div>
+        </div>
+        <div class="pinterest-item">
+          <img src="assets/portfolio_2.webp" alt="Calming Bedroom Styling">
+          <div class="pinterest-caption">Sage Green Accents Bedroom</div>
+        </div>
+        <div class="pinterest-item">
+          <img src="assets/hero_living_room.webp" alt="Luxury Living Room Styling">
+          <div class="pinterest-caption">Sunlit Cozy Living Room</div>
+        </div>
+        <div class="pinterest-item">
+          <img src="assets/portfolio_4.webp" alt="Entryway Decor Ideas">
+          <div class="pinterest-caption">Modern Console Table Styling</div>
+        </div>
+        <div class="pinterest-item">
+          <img src="assets/portfolio_3.webp" alt="Minimalist Workspace Setup">
+          <div class="pinterest-caption">Curated Oak Workspace</div>
+        </div>
+        <div class="pinterest-item">
+          <img src="assets/after_room.webp" alt="Uncluttered Living Room Style">
+          <div class="pinterest-caption">Linen Curved Sofa Layout</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FAQ SECTION (ACCORDION)
+       ========================================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Got Questions?</span>
+        <h2 class="section-title">Frequently Asked <span>Questions</span></h2>
+      </div>
+
+      <div class="faq-container reveal">
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+          <div class="faq-header">
+            <h4 class="faq-question">How long does a makeover take?</h4>
+            <div class="faq-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+              </svg>
+            </div>
+          </div>
+          <div class="faq-body">
+            <div class="faq-content">
+              A standard single-room makeover takes approximately 1 to 2 weeks from planning to final styling. A full-home beautification process usually takes between 4 to 8 weeks depending on the sourcing times and scale.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <div class="faq-header">
+            <h4 class="faq-question">Do you work within my budget?</h4>
+            <div class="faq-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+              </svg>
+            </div>
+          </div>
+          <div class="faq-body">
+            <div class="faq-content">
+              Yes, we work with a wide range of budgets. During our initial consultation, we discuss furniture choices and decor styles, setting clear allocations that match your goals without sacrificing the quality of results.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <div class="faq-header">
+            <h4 class="faq-question">Can you redesign just one room?</h4>
+            <div class="faq-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+              </svg>
+            </div>
+          </div>
+          <div class="faq-body">
+            <div class="faq-content">
+              Absolutely. We provide tailored room-by-room makeover services, color consultations, or organizational designs. We can focus specifically on your master bedroom, living room, entryway, or home office.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <div class="faq-header">
+            <h4 class="faq-question">Do you shop for furniture?</h4>
+            <div class="faq-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+              </svg>
+            </div>
+          </div>
+          <div class="faq-body">
+            <div class="faq-content">
+              Yes, our Shopping & Sourcing phase is fully managed by us. We handpick furniture, textiles, rugs, and decorative items. Through our vendor networks, we also secure exclusive trade discounts for our clients.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item">
+          <div class="faq-header">
+            <h4 class="faq-question">Can you manage contractors?</h4>
+            <div class="faq-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+              </svg>
+            </div>
+          </div>
+          <div class="faq-body">
+            <div class="faq-content">
+              Yes, we provide full project coordination. While we are styling and design consultants, we coordinate with handymen, painters, lighting installers, and cleaning contractors to make sure the transformation runs smoothly.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+       CONTACT SECTION
+       ========================================== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-grid">
+        
+        <!-- Info Column -->
+        <div class="contact-info reveal reveal-left">
+          <h2 class="contact-info-title">Let's Create Your Dream Home together.</h2>
+          <p class="contact-info-desc">Whether you need complete home beautification, a single room makeover, or color consultation, we're here to help guide the process. Drop us a message for a consultation.</p>
+          
+          <div class="contact-details">
+            <!-- Item 1: Phone -->
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+              </div>
+              <div class="contact-detail-text">
+                <h5>Call Us</h5>
+                <p>+45 88 92 10 44</p>
+              </div>
+            </div>
+
+            <!-- Item 2: Email -->
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <div class="contact-detail-text">
+                <h5>Email Us</h5>
+                <p>hello@sereinstudios.com</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stylized Maps Placeholder -->
+          <div class="map-placeholder">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.4975510651145!2d12.565538577239618!3d55.67609679803131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253100c5cff4b%3A0xc3c5f4fa7b9f3cfc!2sCopenhagen%20City%20Center!5e0!3m2!1sen!2sdk!4v1717316719888!5m2!1sen!2sdk" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Form Column -->
+        <div class="contact-form-column reveal reveal-right">
+          <div class="contact-form-card">
+            <form id="contact-form-element">
+              <div class="form-grid">
+                
+                <!-- Name -->
+                <div class="form-group">
+                  <input type="text" id="contact-name" class="form-input" placeholder=" " required>
+                  <label for="contact-name" class="form-label">Full Name</label>
+                </div>
+
+                <!-- Phone -->
+                <div class="form-group">
+                  <input type="tel" id="contact-phone" class="form-input" placeholder=" ">
+                  <label for="contact-phone" class="form-label">Phone Number</label>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                  <input type="email" id="contact-email" class="form-input" placeholder=" " required>
+                  <label for="contact-email" class="form-label">Email Address</label>
+                </div>
+
+                <!-- Project Type -->
+                <div class="form-group select-wrapper">
+                  <select id="contact-project-type" class="form-select" required>
+                    <option value="" disabled selected>Project Type</option>
+                    <option value="Beautification">Interior Beautification</option>
+                    <option value="Color">Color Consultation</option>
+                    <option value="Styling">Home Styling / Makeover</option>
+                    <option value="Furniture">Furniture Selection</option>
+                    <option value="Other">Other Services</option>
+                  </select>
+                </div>
+
+                <!-- Property Address -->
+                <div class="form-group full-width">
+                  <input type="text" id="contact-address" class="form-input" placeholder=" ">
+                  <label for="contact-address" class="form-label">Property Address</label>
+                </div>
+
+                <!-- Budget -->
+                <div class="form-group full-width select-wrapper">
+                  <select id="contact-budget" class="form-select" required>
+                    <option value="" disabled selected>Project Budget Range</option>
+                    <option value="under5k">Under $5,000</option>
+                    <option value="5k-15k">$5,000 - $15,000</option>
+                    <option value="15k-30k">$15,000 - $30,000</option>
+                    <option value="over30k">$30,000+</option>
+                  </select>
+                </div>
+
+                <!-- Message -->
+                <div class="form-group full-width">
+                  <textarea id="contact-message" class="form-textarea" placeholder=" " required></textarea>
+                  <label for="contact-message" class="form-label">Tell us about your design vision...</label>
+                </div>
+
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Send Booking Request</span>
+              </button>
+
+              <div class="form-status" id="form-status-message"></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Brand Block -->
+        <div class="footer-brand">
+          <div class="footer-logo">SÉREIN<span>.</span></div>
+          <p>We create peaceful, luxury, and inspiring living spaces, transforming houses into homes that elevate daily living.</p>
+          <div class="footer-socials">
+            <!-- Instagram -->
+            <a href="https://instagram.com" class="social-link" target="_blank" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12.01 6.001C8.69 6.001 6 8.691 6 12.01c0 3.319 2.69 6.01 6.01 6.01 3.32 0 6.01-2.691 6.01-6.01 0-3.319-2.69-6.01-6.01-6.01zM12.01 15c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M18.5 5.5a.5.5 0 11-1 0 .5.5 0 011 0zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm8 10c0 4.41-3.59 8-8 8s-8-3.59-8-8 3.59-8 8-8 8 3.59 8 8z" />
+              </svg>
+            </a>
+            <!-- Pinterest -->
+            <a href="https://pinterest.com" class="social-link" target="_blank" aria-label="Pinterest">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12a3 3 0 106 0 3 3 0 00-6 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19.5 8.25c0-1.63-.5-3.06-1.5-4.25-1-1.19-2.22-1.75-3.75-1.75s-2.75.56-3.75 1.75C9.5 5.19 9 6.62 9 8.25c0 1.94.88 3.31 2.25 4 .5.25.75-.06.75-.38v-1.12c0-.56-.31-.88-.75-1.25a2.25 2.25 0 01-.5-1.5c0-.94.69-1.69 1.75-1.69s1.75.75 1.75 1.69c0 .62-.19 1.12-.5 1.5-.44.38-.75.69-.75 1.25v1.12c0 .32.25.63.75.38C18.62 11.56 19.5 10.19 19.5 8.25z" />
+              </svg>
+            </a>
+            <!-- Facebook -->
+            <a href="https://facebook.com" class="social-link" target="_blank" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3V2z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#process">Our Process</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>Subscribe to receive styling guides, design ideas, and design project reveals.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
+            <input type="email" class="newsletter-input" placeholder="Your email address" required>
+            <button type="submit" class="newsletter-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width: 20px; height: 20px;">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer-bottom">
+        <div class="copyright">&copy; 2026 SÉREIN. All Rights Reserved.</div>
+        <ul class="footer-bottom-links">
+          <li><a href="#hero">Privacy Policy</a></li>
+          <li><a href="#hero">Terms of Service</a></li>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       FLOATING WHATSAPP WIDGET
+       ========================================== -->
+  <div class="whatsapp-widget">
+    <a href="https://wa.me/4588921044" class="whatsapp-btn" target="_blank" aria-label="WhatsApp Chat">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.967C16.59 1.973 14.113 1.05 11.5 1.05c-5.444 0-9.873 4.373-9.877 9.805-.001 1.768.479 3.493 1.39 5.04L2.025 21.68l6.195-1.615c-.001.002 0 0 .022.001-.001.001 0 .001.001.001zm12.515-7.054c-.302-.151-1.786-.88-2.062-.98-.276-.1-.476-.151-.676.15-.2.301-.776.98-.95 1.18-.175.201-.35.226-.653.076-.301-.15-1.272-.469-2.423-1.495-.895-.798-1.5-1.785-1.675-2.086-.175-.301-.019-.464.132-.613.136-.134.301-.351.452-.527.15-.176.2-.301.3-.502.1-.201.05-.376-.025-.527-.075-.151-.676-1.63-.927-2.235-.243-.587-.49-.508-.675-.518-.174-.01-.374-.012-.574-.012-.2 0-.526.075-.802.376-.276.301-1.053 1.03-1.053 2.512s1.078 2.912 1.228 3.113c.15.201 2.122 3.24 5.141 4.547.718.31 1.279.496 1.716.635.722.23 1.38.197 1.9.119.579-.087 1.786-.73 2.036-1.433.25-.703.25-1.306.175-1.433-.074-.127-.275-.202-.577-.353z"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- JavaScript Link -->
+  <script src="js/app.js"></script>
+</body>
+</html>
